@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import "./HomeList.scss";
+import "./homeList.scss";
 import { useGSAP } from "@gsap/react";
 import { Link } from "react-router-dom";
 
