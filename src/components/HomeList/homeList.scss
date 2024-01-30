@@ -1,0 +1,26 @@
+.homeList__wrapper{
+    ul{
+        li{
+            padding: 1rem;
+            border-bottom: 1px solid grey;
+            color: grey;
+            background-color: white;
+            transition: ease .5s;
+            h2{
+                font-size: clamp(1rem, 10vw, 6rem);
+                font-weight: 200;
+            }
+        }
+        li:hover{
+            background-color: black;
+            color: white;
+            transition: .5s ease;
+        }
+    }
+
+    .cursor{
+        width: 300px;
+        height: auto;
+        pointer-events: none;
+    }
+}
